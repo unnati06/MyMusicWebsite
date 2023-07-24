@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(215, 219, 217);
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 155px;
+    background-color:  rgb(62, 163, 84);
+    color: white;
+    padding: 24px;
+    border-radius: 0px;
+}
+.sidebar .navbar ul{
+      list-style: none;
+      margin: 20px;
+      margin-top: 80px;
+}
+.sidebar .navbar ul li{
+    padding: 10px 0px;
+
+}
+.sidebar .navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+.sidebar .navbar ul li a:hover,
+.sidebar .navbar ul li a:active, 
+.sidebar .navbar ul li a:focus{
+    color: wheat
+}
+.sidebar .navbar ul li a:hover .fa,
+.sidebar .navbar ul li a:active .fa,
+.sidebar .navbar ul li a:focus .fa{
+    color: rgb(0, 14, 5);
+}
+.sidebar .Policies{
+    position: absolute;
+    bottom: 100px;
+    
+}
+.sidebar .Policies ul{
+    list-style: none;
+}
+.sidebar .Policies ul li{
+    padding-bottom: 5px;
+    margin: 20px;
+}
+.sidebar .Policies ul li a{
+    color: #b3b3b3;
+    font-weight: 500px;
+    font-size: 10px;
+}
+.maincontainer{
+    
+}
+/* .topbar{
+    display: flex;
+    padding: 14px 30px;
+    text-decoration: none;
+    justify-content: space-between;
+    background-color: rgb(62, 163, 84);
+    color: #ffffff;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    
+}
+.topbar .navigation{
+    display: flex;
+}
+.topbar .navigation .activities{
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.topbar .navigation .activities ul{
+    display: flex;
+    list-style: none;
+}
+.topbar .navigation .activities ul li{
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+}
+.topbar .navigation .activities ul li a{
+    color:#b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.topbar .navigation .activities ul li a:hover,
+.topbar .navigation .activities ul li a:active,
+.topbar .navigation .activities ul li a:focus{
+    color: #ffffff;
+    font-size: 15px;
+} */
+.bg-pic{
+    height: 150vh;
+    width: 100%;
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./music.jpg);
+    background-size: cover;
+    background-attachment:scroll;
+    
+}
+.bg-pic h1{
+    color: rgb(255, 255, 255);
+    /* background: rgba(128, 128, 128, 0.493); */
+    padding: 1.3rem;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    font-family: monospace;
+    display: inline-block;
+    position: relative;
+    top: 55%;
+    left: 56%;
+    bottom: 50%;
+    width: 50vh;
+    transform: translate(-50%);
+    transition: all 0.3s ease;
+    text-align: center;
+    flex-direction: column;
+}
+
+.bg-pic .info p{
+   margin-left: 15%;
+   margin-top: 40%;
+   color: rgb(255, 255, 255);
+   background-color: rgba(128, 128, 128, 0.493);
+   padding: 1.3rem;
+   display: inline-block;
+   font-size: 1.2rem;
+   font-family: monospace;
+}
+.topbar{
+    display: flex;
+    padding: 14px 30px;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    border-radius: 0px; 
+    display: flex;
+    justify-content: space-around;
+    background: #808080e8;
+    
+}
+.topbar ul{
+    display: flex;
+}
+/* .topbar ::before{
+    content:" ";
+    background-color: rgb(240, 239, 239);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+} */
+.topbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.topbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.topbar ul li a button{
+    background-color: rgb(62, 163, 84);
+    color: #090909;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+.topbar ul li a button:hover,
+.topbar ul li a button:active,
+.topbar ul li a button:focus{
+    background-color: #023a09;
+}

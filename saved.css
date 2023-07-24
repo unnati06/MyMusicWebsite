@@ -1,0 +1,86 @@
+body{
+    height: 90vh;
+    width: 50%;
+    /* background-color: rgb(85, 76, 129);
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) ;
+    background-size: cover;
+    background-attachment:scroll;
+     */
+     background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./music.jpg);
+     background-size: cover;
+     background-attachment:scroll;
+}
+/* .mainbody h1{
+    margin-left: 30rem;
+    width: 25rem;
+    font-family: 'valera' 'sans-serif';
+    font-weight: bold;
+    box-shadow: inset;
+    font-size: 2.8rem;
+} */
+img{
+    border-radius: 80%;
+    position: absolute;
+    
+}
+h1{
+    display: inline-block;
+    margin-left: 25px;
+}
+.container{
+    margin-top: 60px;
+    height: 60px;
+}
+.mainbody{
+    width: 100%;
+}
+.save{
+    height: 53vh;
+    position: scroll;
+}
+.songitem{
+    height: 36px;
+    display: flex;
+    background-color: rgba(245, 245, 245, 0.863);
+    width: 80%;
+    color: black;
+    margin: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.timestamp{
+    cursor: pointer;
+    margin: 0 23px;
+}
+.bottom{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    height: 80px;
+    align-items: center;
+    
+    
+}
+.bottom .icons{
+    color: white;
+    align-items: center;
+    margin-left: 100vh;
+    margin-bottom: 2vh;
+}
+.bottom :in-range{
+    width: 80vh;
+    margin-top: 3vh;
+    align-items: center;
+    margin-left: 60vh;
+}    
+.bottom .name{
+    color: #ffffff;
+    position: relative;
+    margin-top: -4vw;
+    left: 2vw;
+}        
+                                                                                                                                                                                                       

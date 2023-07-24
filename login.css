@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(240, 232, 221);
+    
+}
+.log{
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+ .info .image{
+    display: flex;
+    margin-right: 35%;
+}
+.image img{
+    margin-right: 35%;
+}
+.log .info ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    width: 1.3rem;
+    border-radius: 55px;
+}
+.log li input{
+    background: white;
+    z-index: 1;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 13px;
+    color: #cac7ff;
+    border-radius: 60px;
+    width: 50vh;
+}
+.log .button{
+    background: #000000;
+    z-index: 1;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 13px;
+    color: #cac7ff;
+    border-radius: 60px;
+    width: 50vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.log .button a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sans-serif;
+    width:55vh;
+}
+.log .button:hover,
+.log .button:active,
+.log .button:focus{
+    opacity: 1;
+    background-color: rgb(75, 37, 70);;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.log p{
+    margin-left: 35%;
+}
+.log p a:hover{
+    color: black;
+}
+.lowbar{
+    /* position: fixed;
+    background: linear-gradient(to right, #808080e8, #4845e4e8);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between; */
+    display: flex;
+    padding: 14px 30px;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-top: 110px;
+    margin-bottom: 0px;
+    border-radius: 0px; 
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, pink, rgb(75, 37, 70));
+    
+}
+.foot-bar{
+   font-size: 1.3rem;
+   font-family: sans-serif;
+
+}
+.lowbar a button{
+    background-color: rgb(170, 66, 148);
+    color: #090909;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 25px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right:20px;
+     margin-top: 5px; 
+    }
+    .lowbar a button:hover,
+    .lowbar a button:active,
+    .lowbar a button:focus{
+        background-color: rgb(75, 37, 70);
+    }
+    
